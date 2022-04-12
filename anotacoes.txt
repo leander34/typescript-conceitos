@@ -1,4 +1,8 @@
 npm i typescript -D
 npx tsc index.ts
 
+configurar a pasta vscode
 npm i ts-node -D
+
+npm i eslint -D
+npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
