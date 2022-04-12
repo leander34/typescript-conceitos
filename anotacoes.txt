@@ -1,2 +1,4 @@
 npm i typescript -D
 npx tsc index.ts
+
+npm i ts-node -D
