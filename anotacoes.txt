@@ -6,3 +6,21 @@ npm i ts-node -D
 
 npm i eslint -D
 npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+
+Cria o arquivo de configuração do typescript
+npx tsc --init
+
+Depois de ter esse arquivo configurado você pode usar o comando
+npx tsc
+para já criar os arquivos já copilados na pasta que você setou como outDir no arquivo de configurações do typescript
+
+Com o webpack -----------------
+
+npm i ts-loader webpack webpack-cli --save-dev
+
+npx webpack -w
+
+
+
+Quando estiver usando typescript nao esqueca que instalar a declaration files daquela lib
