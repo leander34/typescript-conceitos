@@ -23,4 +23,4 @@ npx webpack -w
 
 
 
-Quando estiver usando typescript nao esqueca que instalar a declaration files daquela lib
+Quando estiver usando typescript nao esqueca de instalar a declaration files daquela lib
